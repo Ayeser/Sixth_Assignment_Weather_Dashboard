@@ -1,5 +1,6 @@
 
 function saveCity() {
+    var city = $("#cityInput").val();
     // $("#citiesSearched").empty();
     // Keep these saved cities in localStorage so persists through page resets
     $("#citiesSearched").prepend("<p>" + city + "</p>");
